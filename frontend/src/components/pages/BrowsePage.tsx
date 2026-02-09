@@ -9,7 +9,7 @@ import {
     Folder,
     BookOpen
 } from 'lucide-react';
-import { api } from '@/services';
+import { api } from '@/services/api';
 import NoteCard from '@/components/notes/NoteCard';
 import { useAuth } from '@/context/AuthContext';
 import type { Department, Note, ApiResponse, PageResponse } from '@/types';
