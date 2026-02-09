@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { Search, X, FileText } from 'lucide-react';
-import { api } from '@/services/api';
-import NoteCard from '@/components/notes/NoteCard';
-import { useAuth } from '@/context/AuthContext';
+import { api } from '@/services/api.ts';
+import NoteCard from '@/components/notes/NoteCard.tsx';
+import { useAuth } from '@/context/AuthContext.tsx';
 import type { Note, ApiResponse, PageResponse } from '@/types';
 
 export default function SearchPage() {

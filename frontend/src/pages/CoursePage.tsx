@@ -8,8 +8,8 @@ import {
     Calendar,
     FileText
 } from 'lucide-react';
-import { api } from '@/services/api';
-import NoteCard from '@/components/notes/NoteCard';
+import { api } from '@/services/api.ts';
+import NoteCard from '@/components/notes/NoteCard.tsx';
 import type { Course, CourseSession, Note, ApiResponse, PageResponse } from '@/types';
 
 export default function CoursePage() {

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
 import { UserPlus, Mail, Lock, User, GraduationCap, Eye, EyeOff, Key } from 'lucide-react';
-import { useAuth } from '@/context/AuthContext';
+import { useAuth } from '@/context/AuthContext.tsx';
 
 export default function RegisterPage() {
     const [formData, setFormData] = useState({
