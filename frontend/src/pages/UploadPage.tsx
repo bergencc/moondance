@@ -8,8 +8,8 @@ import {
     Check,
     AlertCircle
 } from 'lucide-react';
-import { api } from '@/services/api';
-import { useAuth } from '@/context/AuthContext';
+import { api } from '@/services/api.ts';
+import { useAuth } from '@/context/AuthContext.tsx';
 import type { Course, Session, CourseSession, ApiResponse, NoteType } from '@/types';
 import { NOTE_TYPE_LABELS } from '@/types';
 

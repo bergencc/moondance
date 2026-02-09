@@ -11,9 +11,9 @@ import {
     Settings,
     LogOut
 } from 'lucide-react';
-import { api } from '@/services/api';
-import { useAuth } from '@/context/AuthContext';
-import NoteCard from '@/components/notes/NoteCard';
+import { api } from '@/services/api.ts';
+import { useAuth } from '@/context/AuthContext.tsx';
+import NoteCard from '@/components/notes/NoteCard.tsx';
 import type { Note, ApiResponse, PageResponse } from '@/types';
 
 export default function ProfilePage() {

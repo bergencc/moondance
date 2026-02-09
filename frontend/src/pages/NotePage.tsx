@@ -15,9 +15,9 @@ import {
     ExternalLink,
     Clock
 } from 'lucide-react';
-import { api } from '@/services/api';
-import { useAuth } from '@/context/AuthContext';
-import { formatDistanceToNow } from '@/utils/date';
+import { api } from '@/services/api.ts';
+import { useAuth } from '@/context/AuthContext.tsx';
+import { formatDistanceToNow } from '@/utils/date.ts';
 import type { Note, Vote, ApiResponse } from '@/types';
 import { NOTE_TYPE_LABELS, NOTE_TYPE_COLORS } from '@/types';
 
