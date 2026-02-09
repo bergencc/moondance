@@ -1,6 +1,6 @@
 import { type ClassValue, clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { NOTE_TYPE_COLORS, NOTE_TYPE_LABELS, type NoteType } from '../types';
+import { NOTE_TYPE_COLORS, NOTE_TYPE_LABELS, type NoteType } from '@/types';
 
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
