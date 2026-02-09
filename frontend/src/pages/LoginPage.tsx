@@ -56,7 +56,7 @@ export default function LoginPage() {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     className="cyber-input w-full pl-10 pr-4 py-3 rounded-lg bg-muted"
-                                    placeholder="you@university.edu"
+                                    placeholder="you@bergen.edu"
                                     required
                                 />
                             </div>
