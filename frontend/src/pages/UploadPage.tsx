@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { api } from '@/services/api.ts';
 import { useAuth } from '@/context/AuthContext.tsx';
-import type { Course, Session, CourseSession, ApiResponse, NoteType } from '@/types';
+import type { Course, CourseSession, ApiResponse, NoteType } from '@/types';
 import { NOTE_TYPE_LABELS } from '@/types';
 
 export default function UploadPage() {
@@ -35,15 +35,6 @@ export default function UploadPage() {
         queryKey: ['courses', schoolId],
         queryFn: async () => {
             const res = await api.get<ApiResponse<Course[]>>(`/courses?schoolId=${schoolId}`);
-
-            return res.data.data;
-        },
-    });
-
-    const { data: sessions } = useQuery({
-        queryKey: ['sessions', schoolId],
-        queryFn: async () => {
-            const res = await api.get<ApiResponse<Session[]>>(`/sessions?schoolId=${schoolId}`);
 
             return res.data.data;
         },
