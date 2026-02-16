@@ -97,7 +97,7 @@ Before requesting review:
 
 ## Reporting Security Issues
 
-Do not open public issues for sensitive security vulnerabilities. Follow the process in `SECURITY.md` (once finalized) or contact maintainers privately through BOSF channels.
+Do not open public issues for sensitive security vulnerabilities. Follow the process in `SECURITY.md`.
 
 ## Code of Conduct
 

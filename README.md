@@ -184,7 +184,7 @@ Please review `CODE_OF_CONDUCT.md` before participating.
 
 ## Security
 
-If you identify a security issue, avoid public disclosure of exploit details. Report responsibly through project maintainers and use `SECURITY.md` once the reporting process is finalized.
+If you identify a security issue, avoid public disclosure of exploit details. Follow the reporting process documented in `SECURITY.md`.
 
 ## License
 
